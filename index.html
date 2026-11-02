@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5efe6">
+  <title>Picnicvale — Picnic Spots, Parks &amp; Outdoor Weekend Guides</title>
+  <meta name="description" content="Discover picnic-friendly parks, riversides, beaches, gardens and outdoor spaces. Find practical guides, seasonal recommendations, family-friendly picnic ideas and weekend escape inspiration.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://plaincompass.github.io/picnicvale/">
+  <meta property="og:site_name" content="Picnicvale">
+  <meta property="og:title" content="Picnicvale — Picnic Spots, Parks &amp; Outdoor Weekend Guides">
+  <meta property="og:description" content="Discover picnic-friendly parks, riversides, beaches, gardens and outdoor spaces. Find practical guides, seasonal recommendations, family-friendly picnic ideas and weekend escape inspiration.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://plaincompass.github.io/picnicvale/">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://plaincompass.github.io/picnicvale/#organization","name":"Picnicvale","alternateName":["Picnicvale","Picnic Vale","picnicvale"],"url":"https://plaincompass.github.io/picnicvale/","description":"Discover picnic-friendly parks, riversides, beaches, gardens and outdoor spaces. Find practical guides, seasonal recommendations, family-friendly picnic ideas and weekend escape inspiration.","parentOrganization":{"@id":"https://plaincompass.github.io/#organization"}},{"@type":"Organization","@id":"https://plaincompass.github.io/#organization","name":"Plain Compass","url":"https://plaincompass.github.io/"},{"@type":"WebSite","@id":"https://plaincompass.github.io/#website","url":"https://plaincompass.github.io/","name":"Plain Compass","publisher":{"@id":"https://plaincompass.github.io/#organization"}},{"@type":"WebSite","@id":"https://plaincompass.github.io/picnicvale/#website","url":"https://plaincompass.github.io/picnicvale/","name":"Picnicvale","alternateName":["Picnicvale","Picnic Vale","picnicvale"],"description":"Discover picnic-friendly parks, riversides, beaches, gardens and outdoor spaces. Find practical guides, seasonal recommendations, family-friendly picnic ideas and weekend escape inspiration.","inLanguage":"en","publisher":{"@id":"https://plaincompass.github.io/picnicvale/#organization"},"isPartOf":{"@id":"https://plaincompass.github.io/#website"}},{"@type":"CollectionPage","@id":"https://plaincompass.github.io/picnicvale/#home","url":"https://plaincompass.github.io/picnicvale/","name":"Picnicvale — Picnic Spots, Parks & Outdoor Weekend Guides","description":"Discover picnic-friendly parks, riversides, beaches, gardens and outdoor spaces. Find practical guides, seasonal recommendations, family-friendly picnic ideas and weekend escape inspiration.","inLanguage":"en","isPartOf":{"@id":"https://plaincompass.github.io/picnicvale/#website"},"about":{"@id":"https://plaincompass.github.io/picnicvale/#organization"},"mainEntity":{"@type":"ItemList","numberOfItems":2,"itemListElement":[{"@type":"ListItem","position":1,"name":"A quiet afternoon by the river","url":"https://plaincompass.github.io/picnicvale/posts/quiet-river-afternoon/","description":"watercolor morning"},{"@type":"ListItem","position":2,"name":"A quiet afternoon by the river222","url":"https://plaincompass.github.io/picnicvale/posts/quiet-river-afternoon-copy/","description":"watercolor morning"}]}}]}</script>
+
+  <script>
+    (() => {
+      const root = document.documentElement;
+      try {
+        const saved = localStorage.getItem("picnicvale-theme");
+        if (saved === "light" || saved === "dark") root.dataset.theme = saved;
+      } catch {}
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const toggle = document.querySelector("#theme-toggle");
+        if (!toggle) return;
+        toggle.checked = root.dataset.theme === "dark";
+        toggle.addEventListener("change", () => {
+          const theme = toggle.checked ? "dark" : "light";
+          root.dataset.theme = theme;
+          try { localStorage.setItem("picnicvale-theme", theme); } catch {}
+        });
+      });
+    })();
+  </script>
+
+  <link rel="stylesheet" href="/picnicvale/styles.css">
+</head>
+<body>
+  <input id="theme-toggle" class="theme-toggle-input" type="checkbox" aria-label="Toggle dark mode">
+
+  <div class="app-shell">
+    <header class="site-header">
+      <a href="/picnicvale/" class="brand" aria-label="Picnicvale home">
+        <span class="brand-icon">🧺</span>
+        <span class="brand-text">
+          <strong>Picnicvale</strong>
+          <small>Garden Light</small>
+        </span>
+      </a>
+
+      <label class="theme-toggle" for="theme-toggle" aria-label="Toggle dark mode">
+        <span>☼</span>
+        <span class="switch"></span>
+        <span>☾</span>
+      </label>
+    </header>
+
+    <main>
+      
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="hero-badge">Garden Light</div>
+        <h1>Water, willow shade, and a long lunch in the sun</h1>
+        <p>Quiet corners and slow afternoons: parks, paths, riversides, and the kind of places that make a picnic feel like a painting.</p>
+      </div>
+    </section>
+
+    <section class="stories">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Explore</p>
+          <h2>Picnic Collections</h2>
+        </div>
+        <span>2 spots</span>
+      </div>
+
+      <div class="story-filter-panel">
+        <form class="story-filters" id="story-filters">
+          <label class="filter-group">
+            Category
+            <select data-filter="category">
+              <option value="">All categories</option>
+              <option value="River walks">River walks</option>
+            </select>
+          </label>
+
+          <div class="story-filter-actions">
+            <p class="story-filter-count" id="story-filter-count">Showing 2 of 2</p>
+            <button class="story-filter-reset" type="button">Reset</button>
+          </div>
+        </form>
+      </div>
+
+      <ul class="story-grid">
+    <li class="story-card" data-category="River walks">
+      <a class="story-link" href="/picnicvale/posts/quiet-river-afternoon-copy/" aria-label="A quiet afternoon by the river222">
+        <div class="story-photo"><img src="/picnicvale/media/watermarked/d9d07dbac82b0dc58e774442eb653194.webp" alt="A river path in soft morning light" loading="lazy"></div>
+        <div class="story-content">
+          <div class="story-meta">
+            <span class="story-tag">🌤️ Partly cloudy</span>
+            <span class="story-tag">River walks</span>
+          </div>
+          <h2 class="story-title">A quiet afternoon by the river222</h2>
+          <p class="story-description">watercolor morning</p>
+          <div class="story-location">📍 Seonyudo Park</div>
+        </div>
+      </a>
+    </li>
+  
+    <li class="story-card" data-category="River walks">
+      <a class="story-link" href="/picnicvale/posts/quiet-river-afternoon/" aria-label="A quiet afternoon by the river">
+        <div class="story-photo"><img src="/picnicvale/media/watermarked/6538fa5c14ce764b89afc0bd824668bd.webp" alt="A river path in soft morning light" loading="lazy"></div>
+        <div class="story-content">
+          <div class="story-meta">
+            <span class="story-tag">🌤️ Partly cloudy</span>
+            <span class="story-tag">River walks</span>
+          </div>
+          <h2 class="story-title">A quiet afternoon by the river</h2>
+          <p class="story-description">watercolor morning</p>
+          <div class="story-location">📍 Seonyudo Park</div>
+        </div>
+      </a>
+    </li>
+  </ul>
+    </section>
+  
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <span class="brand-icon">🧺</span>
+        <div>
+          <strong>Picnicvale</strong>
+          <p>Soft afternoons, river paths, and linen-table lunch notes.</p>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="/picnicvale/">Home</a>
+      </div>
+
+      <div class="footer-copyright">© 2026 Picnicvale</div>
+    </footer>
+  </div>
+
+  <script>
+    (() => {
+      const form = document.querySelector("#story-filters");
+      const count = document.querySelector("#story-filter-count");
+      const cards = [...document.querySelectorAll(".story-card")];
+      if (!form || !count || cards.length === 0) return;
+
+      const filters = [...form.querySelectorAll("select[data-filter]")];
+      const reset = form.querySelector(".story-filter-reset");
+
+      const updateCards = () => {
+        let visible = 0;
+        for (const card of cards) {
+          const matches = filters.every((filter) => !filter.value || card.dataset[filter.dataset.filter] === filter.value);
+          card.hidden = !matches;
+          if (matches) visible += 1;
+        }
+        count.textContent = `Showing ${visible} of ${cards.length}`;
+      };
+
+      form.addEventListener("change", updateCards);
+      reset?.addEventListener("click", () => {
+        for (const filter of filters) filter.value = "";
+        updateCards();
+      });
+    })();
+  </script>
+
+  <script>
+    (() => {
+      const protectedImages = ".story-photo img, .post-page img";
+      for (const image of document.querySelectorAll(protectedImages)) image.draggable = false;
+      for (const eventName of ["contextmenu", "dragstart", "selectstart"]) {
+        document.addEventListener(eventName, (event) => {
+          if (event.target instanceof Element && event.target.closest(protectedImages)) event.preventDefault();
+        }, true);
+      }
+    })();
+  </script>
+</body>
+</html>
