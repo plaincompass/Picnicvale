@@ -134,6 +134,7 @@ a { color: inherit; }
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--muted);
+  text-align: right;
 }
 
 .theme-toggle-input {
@@ -156,8 +157,8 @@ a { color: inherit; }
   width: 46px;
   height: 26px;
   border-radius: 999px;
-  background: rgba(218, 223, 240, 0.7);
-  border: 1px solid rgba(30, 36, 46, 0.1);
+  background: var(--paper);
+  border: 1px solid var(--line);
 }
 .switch::after {
   content: "";
@@ -167,7 +168,7 @@ a { color: inherit; }
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--mist), var(--lavender));
+  background: linear-gradient(135deg, var(--mist), var(--rose));
   transition: transform 0.25s ease;
 }
 .theme-toggle-input:checked ~ .app-shell .switch::after {
@@ -285,7 +286,7 @@ main {
   padding: 10px 12px;
   border: 1px solid var(--line);
   border-radius: 12px;
-  background: rgba(255,255,255,0.2);
+  /* background: rgba(255,255,255,0.2); */
   color: var(--ink);
   font: inherit;
 }
@@ -420,14 +421,14 @@ main {
   color: var(--muted);
 }
 .footer-brand {
-  display: flex;
   align-items: center;
+  text-align: center;
   gap: 10px;
 }
 .footer-brand strong {
   display: block;
   color: var(--ink);
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: "Cormorant Garamond", serif;
 }
 .footer-brand p {
@@ -451,6 +452,7 @@ main {
   font-size: 0.58rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .post-page {
